@@ -67,8 +67,36 @@ void draw() {
   rect(78, 154, 72, 50); // mid dark
   rect(78, 211, 72, 50); // bottom dark
   fill(#B7844B);
+  
+  // books on top shelf
+  
+  fill(#BA6125);
+  rect(210, 107, 10, 40); // orange book
+  fill(#8C707F);
+  rect(200, 107, 7, 40); // purple
+  fill(#7B8EAE);
+  rect(190, 107, 7, 40); // blue 
+  fill(#8E9140);
+  rect(180, 112, 8, 35); // green
  
- 
+ // books on mid shelf
+  fill(#8B463F);
+  rect(120, 181, 50, 4); // maroon cover
+  rect(120, 200, 50, 4);
+  ellipse(120, 192.5, 24, 24);
+  fill(#73703D); // green cover
+  rect(125, 167, 40, 2);
+  rect(125, 179, 40, 2);
+  ellipse(125, 174, 15, 15);
+  fill(#E9CFAE);
+  rect(120, 185, 50, 15); // pages of bigger book
+  ellipse(120, 192.5, 15, 15); // curved end of pages
+  rect(125, 169, 40, 10); // pages of smaller book
+  ellipse(125, 174, 10, 10); // curved end of pages
+  fill(#744C28);
+  ellipse(170, 192.5, 10, 15); // other end of big book
+  ellipse(165, 174, 5, 10);
+  
   // window
   fill(#95693A);
   rect(340, 75, 120, 130); // dark side window frame
@@ -175,6 +203,7 @@ void draw() {
   rect(85, 285, 40, 40, 4); // ollow
   fill(#DE482F);
   rect(270, 290, 35, 35, 4);
+  
   //cat
  
   if (catmode == "normal") {
